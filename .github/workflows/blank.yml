@@ -24,6 +24,8 @@ jobs:
  
     steps:
       - uses: actions/checkout@v4
+      - name: pwd action
+        run: pwd      
       - name: ls action
         run: ls -l
 
