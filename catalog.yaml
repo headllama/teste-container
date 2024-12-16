@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Ms-proposal
+  description: Microsserviço .NET responsável por criar propostas para o fluxo de emissão v3
+  repoUrl: https://github.com/foo/ms-proposal
+  tags:
+      - .NET
+      - backend
+      - V3
+  annotations:
+    github.com/project-slug: <JUNTOS>/projeto-node
+    backstage.io/techdocs-ref: dir:.
+    jira.com/project-key: JIR
+spec:
+  type: service
+  lifecycle: production
+  owner: squad-cotação
