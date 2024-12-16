@@ -5,7 +5,7 @@ metadata:
   description: Microsserviço .NET responsável por criar propostas para o fluxo de emissão v3
   repoUrl: https://github.com/foo/ms-proposal
   tags:
-      - .NET
+      - dotNET
       - backend
       - V3
   annotations:
